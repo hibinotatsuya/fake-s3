@@ -1,2 +1,2 @@
-# image-server
+# file-server
 S3っぽいやつ
