@@ -27,7 +27,7 @@ if (!file_exists($dir)) {
 
 $bool = copy($_FILES['file']['tmp_name'], $path);
 if ($bool) {
-    echo 'ok';
+	echo 'ok';
 } else {
 	echo 'file_error';
 }
