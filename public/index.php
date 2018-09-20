@@ -7,7 +7,7 @@ if (empty($_FILES) || empty($_POST) || empty($_POST['hash']) || empty($_POST['bu
 }
 
 // hashのチェック
-$hash = hash('sha256', KEY . SECRET);
+$hash = hash(ALGO, KEY . SECRET);
 if ($hash != $_POST['hash']) {
 	echo 'hash_error';
 	exit;
