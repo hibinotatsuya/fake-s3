@@ -1,1 +1,5 @@
 /config/config.php
+
+/public/*
+!/public/index.php
+!/public/form.php
