@@ -1,6 +1,9 @@
 <?php
 require_once('../config/config.php');
 
+//file_put_contents('../logs/debug.txt', var_export($_FILES, true), FILE_APPEND);
+//file_put_contents('../logs/debug.txt', var_export($_POST, true), FILE_APPEND);
+
 // パラメーターのチェック
 if (empty($_FILES) || empty($_POST) || empty($_POST['hash']) || empty($_POST['bucket']) || empty($_POST['object_key'])) {
 	exit;
