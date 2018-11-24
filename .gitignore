@@ -3,3 +3,5 @@
 /public/*
 !/public/index.php
 !/public/form.php
+
+/logs/*
